@@ -70,21 +70,6 @@ $( document ).ready(function() {
         // rotate: '1turn'
       });
     
-    // var tl = anime.timeline({
-    //     loop: true,
-    // });
-
-    // var loopBegan = 0;
-    // var loopCompleted = 0;
-
-    // tl
-    // .add({
-    //     targets: '#left-eye',
-    //     opacity: 0,
-    //     duration: 1000,
-    //     delay: 500,
-    // })
-
     anime({
         targets: '#left-eye',
         opacity: 0,
@@ -102,18 +87,15 @@ $( document ).ready(function() {
         // duration: 3000
     });
 
-
-    $('.axContainer').prepend("<div class='thankYou'><h1>grossGUI.io is under construction</h1></div>")
-
-    anime({
-        targets: '.thankYou',
-        direction: 'alternate',
-        translateX: [-700, 120],
-        // translateX: [0, 20%],
-        duration: 4000,
-        loop: true
-        // duration: 3000
-    });
+    // anime({
+    //     targets: '.thankYou',
+    //     direction: 'alternate',
+    //     translateX: [-700, 120],
+    //     // translateX: [0, 20%],
+    //     duration: 4000,
+    //     loop: true
+    //     // duration: 3000
+    // });
 
     // anime({
     //     targets: '#right-eye',
