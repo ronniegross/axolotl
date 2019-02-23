@@ -166,9 +166,9 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
   body {
     background-color: lightblue;
   }
-}
+} */
 
